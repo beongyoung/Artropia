@@ -1,5 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/unity
 # Edit at https://www.toptal.com/developers/gitignore?templates=unity
+.DS_Store
 node_modules/
 ### Unity ###
 # This .gitignore file should be placed at the root of your Unity project directory
@@ -11,8 +12,8 @@ node_modules/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-
+# /[Uu]ser[Ss]ettings/
+Assets/
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
